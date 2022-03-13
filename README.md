@@ -38,9 +38,12 @@ make sure you keep the trailing space after the last `#`
 
 # Appliance Ports
 
-**ae/ge/xe ports**
+**ae/ge/xe/et ports**
 ```
 [agx]e-\d\D\d\D\d*[.]?\d*
+```
+```
+[e]t-\d\D\d\D\d*[.]?\d*
 ```
 - `[agx]`   matches a single character in the list `agx` (case sensitive)
 - `e-`      matches the characters `e-` literally (case sensitive)
